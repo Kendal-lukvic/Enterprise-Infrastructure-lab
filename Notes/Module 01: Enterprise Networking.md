@@ -13,7 +13,7 @@ Understand why organizations use Active Directory and centralized identity manag
 
 # Learning Outcomes
 
-By the end of this module, I should be able to:
+By the end of this module I should be able to:
 
 - Explain what a server is.
 - Explain what a client is.
@@ -27,28 +27,19 @@ By the end of this module, I should be able to:
 
 ## Server
 
-Definition: A computer or virtual machine that can provide resources and services to another computer over the network.
+Definition:
 
 Examples:
--Domain Controller
-- File Server
-- Web Server
-- Print Server
 
-My own explanation: 
+My own explanation:
 
 ---
 
 ## Client
 
-Definition: A client is a computer or device that requests resources or services from a server.
-
+Definition:
 
 Examples:
-- Windows 11 laptop
-- Desktop computer
-- Smartphone
-- Printer
 
 My own explanation:
 
@@ -56,15 +47,84 @@ My own explanation:
 
 ## Domain
 
-Definition: A domain is a logical group of users, computers, servers, and other network resources that are centrally managed under the same security policies and database.
-Examples:
+Definition:
 
+Examples:
 
 My own explanation:
 
+---
 
-## Domain Controller: A Domain Controller is a Windows Server that manages authentication, authorization, users, computers, and security policies within an Active Directory domain.
+## Domain Controller
 
+Definition:
+
+Responsibilities:
+
+My own explanation:
 
 ---
 
+# Enterprise Scenario
+
+Company:
+
+Lukvic Technologies
+
+Departments:
+
+- IT
+- HR
+- Finance
+- Sales
+
+Questions answered during this module:
+
+✔ Why can't every computer manage itself?
+
+✔ How are users managed?
+
+✔ How are employees onboarded?
+
+✔ How are employees offboarded?
+
+---
+
+# Interview Questions
+
+Question 1
+
+Question 2
+
+Question 3
+
+---
+
+# Commands Learned
+
+(None yet)
+
+---
+
+# Lessons Learned
+
+(To complete after the module.)
+
+---
+
+# Questions I Still Have
+
+(To complete during the module.)
+
+---
+
+# Module Checklist
+
+- [ ] Understand Server
+- [ ] Understand Client
+- [ ] Understand Domain
+- [ ] Understand Domain Controller
+- [ ] Explain Active Directory
+- [ ] Complete Lab
+- [ ] Update GitHub
+- [ ] Pass Module Review
