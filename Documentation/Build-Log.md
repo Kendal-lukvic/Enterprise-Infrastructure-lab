@@ -19,3 +19,17 @@ Prepare the primary administrator workstation for virtualization.
 ### Lessons Learned
 
 (To be completed)
+
+Build 002
+
+Objective
+
+Deploy the first enterprise server.
+
+Reason
+
+A Domain Controller provides centralized authentication and identity management for the enterprise.
+
+Expected Result
+
+A functional Windows Server virtual machine ready for Active Directory deployment.
