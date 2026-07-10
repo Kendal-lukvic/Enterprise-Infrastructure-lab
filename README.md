@@ -1,4 +1,4 @@
-# 🛡️ Active Directory Home Lab
+# 🛡️ enterprise-infrastructure-lab Lab
 
 ## Overview
 
