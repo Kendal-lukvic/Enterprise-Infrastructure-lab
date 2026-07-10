@@ -1,4 +1,4 @@
-# 🛡️ enterprise-infrastructure-lab Lab
+# 🛡️ Enterprise-Infrastructure-lab Lab
 
 ## Overview
 
