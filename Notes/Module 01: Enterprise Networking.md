@@ -27,19 +27,26 @@ By the end of this module I should be able to:
 
 ## Server
 
-Definition:
+Definition: A server is a computer or virtual machine that provides resources or services to other computers over a network.
 
 Examples:
+1. file server
+2. domaine contorler
+3. Web sever
+4. Print server 
 
-My own explanation:
+My own explanation: 
 
 ---
 
 ## Client
 
-Definition:
+Definition: A client is a computer that requests resources or services from a server.
 
 Examples:
+1. Printer
+2. Computer/Laptop
+3. Smartphone
 
 My own explanation:
 
@@ -47,8 +54,7 @@ My own explanation:
 
 ## Domain
 
-Definition:
-
+Definition: A domain is a logical group of users, devices, servers, and other network resources that are centrally managed by the same security policies and database.
 Examples:
 
 My own explanation:
@@ -57,9 +63,14 @@ My own explanation:
 
 ## Domain Controller
 
-Definition:
+Definition: Is a windows server that mananges auhentication, authorizatio, users, computers and security policies within active directory domain.
 
 Responsibilities:
+- Authenticate users
+- Authorize access
+- Store user accounts
+- Manage computers
+- Apply Group Policies
 
 My own explanation:
 
@@ -92,12 +103,40 @@ Questions answered during this module:
 
 # Interview Questions
 
-Question 1
+Question 1 Security & Compliance: Without central management, the IT department can't ensure that every computer has the latest security patches, firewalls active, or antivirus software running. One unpatched computer can compromise the entire corporate network.
+
+Consistency: IT needs to push out software updates, configure Wi-Fi profiles, and enforce password policies uniformly across the Finance, Sales, and other departments.
+
+Efficiency: Standardizing configurations means a small IT team can manage hundreds or thousands of devices using centralized tools (like MDM - Mobile Device Management) rather than manually fixing every single machine.
 
 Question 2
+Identity as a Key: Every employee gets a single corporate identity (username/password).
+
+Role-Based Access Control (RBAC): Access is granted based on the department. For example, a Finance employee will automatically have access to payroll systems, while a Sales employee will get access to the CRM (Customer Relationship Management) tool, but neither can see internal HR files.
+
+Single Sign-On (SSO): This identity allows employees to log into all their authorized apps securely without needing dozens of different passwords.
 
 Question 3
+Onboarding is a cross-departmental choreography that transforms a candidate into a productive employee.
 
+HR finalizes the contract, collects personal details, and triggers the onboarding workflow.
+
+Finance sets up the new hire in the payroll system and establishes their tax and benefit profiles.
+
+IT provisions the user account in the IAM system, assigns them to their departmental groups, and prepares their physical hardware (laptop, phone) shipped out with pre-configured security profiles.
+
+Sales / Department Leads provide the specific training and team-specific tool access on day one.
+
+Question 4
+Offboarding is the reverse choreography, with an absolute focus on security and asset recovery.
+
+HR notifies IT and Finance of the employee’s departure date and handles the exit interview.
+
+IT immediately revokes access to the corporate identity/IAM system the moment the offboarding window hits. This instantly cuts off access to email, cloud storage, and SaaS apps to prevent data exfiltration.
+
+Finance processes the final paycheck, calculates remaining PTO, and closes out expense accounts.
+
+IT / Operations manages the return of company property (laptops, keys, security tokens) and securely wipes or reimages the machine for the next user.
 ---
 
 # Commands Learned
