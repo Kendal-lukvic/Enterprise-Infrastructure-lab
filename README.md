@@ -67,7 +67,18 @@ active-directory-lab/
 ```
 
 ---
+## Lab Progress
 
+| Lab | Topic | Status |
+|------|-------|--------|
+| ✅ Lab 01 | Deploy First Domain Controller | Complete |
+| 🟡 Lab 02 | Organizational Units | In Progress |
+| ⬜ Lab 03 | Users and Groups | Pending |
+| ⬜ Lab 04 | Domain Join | Pending |
+| ⬜ Lab 05 | Group Policy | Pending |
+| ⬜ Lab 06 | DNS | Pending |
+| ⬜ Lab 07 | DHCP | Pending |
+| ⬜ Lab 08 | File Server | Pending |
 ## Status
 
 🚧 This project is currently under development as part of my IT Career Bootcamp.
